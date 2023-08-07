@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	  clrscr();
+	  printf("enter your name :");
+	  scanf("%d");
+	  printf("enter your birth date:\n");
+	  scanf("%d");
+	  printf("enter your age :");
+	  scanf("%d");
+	  printf("enter your address:");
+	  scanf("%d");
+	  getch();
+}

@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+long factorial(int n)
+{
+
+      if(n==0)
+      return 1;
+      else
+      return(n*factorial(n-1));
+}
+void main()
+{
+
+       int number;
+       long fact;
+       clrscr();
+       printf("enter number:");
+       scanf("%d",&number);
+       fact=factorial(number);
+       printf("factorial of %d is %ld\n",number,fact);
+       getch();
+}

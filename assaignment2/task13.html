@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text] {
+            border: none;
+            border-bottom: 2px solid red;
+            box-shadow: 0 0 20px black;
+        }
+
+        input[type=text]:focus {
+            outline: none;
+            border-bottom: 2px solid blue;
+        }
+        input[type=number]:in-range{
+            border: 2px solid green;
+        }
+        input[type=number]:out-of-range{
+            border: 2px solid red;
+        }
+        p:first-child{
+            color: red;
+        }
+        p:last-child{
+            color: aqua;
+        }
+        p:nth-child(odd){
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" name="" id="">
+
+    <input type="number" name="" id="" min="0" max="5">
+
+    <div>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+    </div>
+</body>
+
+</html>
